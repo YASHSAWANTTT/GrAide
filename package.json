@@ -1,12 +1,13 @@
 {
-  "name": "graide",
+  "name": "GrAIde",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed": "tsx scripts/seed.ts"
   },
   "dependencies": {
     "@clerk/express": "^1.7.5",

@@ -48,7 +48,7 @@ export function Navbar() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
               <span className="text-white font-semibold text-lg md:text-xl">
-                GrAide
+                GrAIde
               </span>
 
             {/* Desktop Navigation */}

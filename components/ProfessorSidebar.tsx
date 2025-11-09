@@ -11,7 +11,7 @@ interface ProfessorSidebarProps {
 const ProfessorSidebar: React.FC<ProfessorSidebarProps> = ({ active }) => (
   <aside className="hidden md:flex sticky top-0 h-screen w-64 bg-white/5 border-r border-white/10 flex-col p-6">
     <div className="mb-8">
-      <a href="/" className="text-lg font-bold text-white flex items-center gap-2 hover:underline">GrAide</a>
+      <a href="/" className="text-lg font-bold text-white flex items-center gap-2 hover:underline">GrAIde</a>
       <div className="text-xs text-white/40">Professor Dashboard</div>
     </div>
     <nav className="flex flex-col gap-2">
@@ -29,7 +29,7 @@ const ProfessorSidebar: React.FC<ProfessorSidebarProps> = ({ active }) => (
       <div>
         <Badge className="bg-blue-600/20 text-blue-400 border-blue-600">Professor</Badge>
       </div>
-      <div className="text-xs text-white/30">&copy; {new Date().getFullYear()} GrAide</div>
+      <div className="text-xs text-white/30">&copy; {new Date().getFullYear()} GrAIde</div>
     </div>
   </aside>
 );

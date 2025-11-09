@@ -57,7 +57,7 @@ export default async function QuizResultsPage() {
           {/* Sidebar */}
           <aside className="hidden md:flex sticky top-0 h-screen w-64 bg-white/5 border-r border-white/10 flex-col p-6">
             <div className="mb-8">
-              <a href="/" className="text-lg font-bold text-white flex items-center gap-2 hover:underline">GrAide</a>
+              <a href="/" className="text-lg font-bold text-white flex items-center gap-2 hover:underline">GrAIde</a>
               <div className="text-xs text-white/40">Professor Dashboard</div>
             </div>
             <nav className="flex flex-col gap-2">
@@ -75,7 +75,7 @@ export default async function QuizResultsPage() {
                   Professor
                 </Badge>
               </div>
-              <div className="text-xs text-white/30">&copy; {new Date().getFullYear()} GrAide</div>
+              <div className="text-xs text-white/30">&copy; {new Date().getFullYear()} GrAIde</div>
             </div>
           </aside>
 
@@ -159,7 +159,7 @@ export default async function QuizResultsPage() {
         {/* Sidebar */}
         <aside className="hidden md:flex sticky top-0 h-screen w-64 bg-white/5 border-r border-white/10 flex-col p-6">
           <div className="mb-8">
-            <a href="/" className="text-lg font-bold text-white flex items-center gap-2 hover:underline">GrAide</a>
+            <a href="/" className="text-lg font-bold text-white flex items-center gap-2 hover:underline">GrAIde</a>
             <div className="text-xs text-white/40">Professor Dashboard</div>
           </div>
           <nav className="flex flex-col gap-2">
@@ -178,7 +178,7 @@ export default async function QuizResultsPage() {
                 Professor
               </Badge>
             </div>
-            <div className="text-xs text-white/30">&copy; {new Date().getFullYear()} GrAide</div>
+            <div className="text-xs text-white/30">&copy; {new Date().getFullYear()} GrAIde</div>
           </div>
         </aside>
 
