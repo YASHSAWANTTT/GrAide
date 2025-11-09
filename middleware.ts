@@ -14,13 +14,13 @@ export default clerkMiddleware(async (auth, req) => {
   // Protect all other routes
   const { userId } = await auth();
   if (!userId) {
-    return Response.redirect(new URL('/login', req.url));
+    return Response.redirect(new URL('/signup', req.url));
   }
 
   // Get user data for role-based access control
   const user = await db.query.users.findFirst({ where: eq(dbUsers.clerkId, userId) });
   if (!user) {
-    return Response.redirect(new URL('/login', req.url));
+    return Response.redirect(new URL('/signup', req.url));
   }
 
   const url = req.nextUrl.pathname;
